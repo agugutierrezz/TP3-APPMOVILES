@@ -1,0 +1,32 @@
+# Core React Native + Expo setup
+expo
+react
+react-native
+
+# Navegación
+@react-navigation/native
+@react-navigation/native-stack
+@react-navigation/material-top-tabs
+
+# Requisitos de navegación (dependencias internas)
+react-native-screens
+react-native-safe-area-context
+react-native-gesture-handler
+react-native-reanimated
+
+# Íconos
+@expo/vector-icons
+
+# Almacenamiento local
+@react-native-async-storage/async-storage
+
+# Estilo seguro para notch y status bar
+expo-status-bar
+
+# Para detección de modo oscuro / claro
+react-native-web
+react-dom
+@expo/metro-runtime
+
+# Instalación rápida
+npx expo install @react-navigation/native @react-navigation/native-stack @react-navigation/material-top-tabs react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated @expo/vector-icons @react-native-async-storage/async-storage react-native-web react-dom @expo/metro-runtime
